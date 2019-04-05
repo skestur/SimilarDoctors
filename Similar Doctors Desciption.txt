@@ -1,0 +1,24 @@
+Similar Doctors Program Description - Sujay Kestur
+
+Similar Doctors is a program that allows a user to browse a list of doctors. 
+The user may filter the list based on the doctor's Speciality (General Practioner, Surgery
+or Pediatrics), Area (North, South, East or West) or Review Score (1, 2, 3, 4 or 5)
+The user can then click on any of the listed doctors and the details for the doctor are 
+displayed which include their name, speciality, area, review score and a list of similar 
+doctors.
+
+Assumptions made:
+1) "Similar" is defined as having the same speciality, area or review score. The similar 
+doctors section of the details is divided according to the filter.
+2) The user can only apply one filter: Speciality, Area or Review Score, at a time. The 
+other two filter's will default to  "all" to show the rest of the doctors in that filter.
+3) All doctors are stored in the program code and filters. If another doctor is to be 
+added, they must be added to all aspects of the code, including their respective filters.
+
+Time Spent: 3 hours
+
+Given more time, I would like to add a way to import doctors into the program so they
+don't each need to be hard-coded into every part of the code. I would also like to add 
+buttons to the similar doctors so that the user can click them and be redirected to the 
+selected doctor. Finally, I would also add the option to apply multiple filters so the 
+user can filter the doctors more if they wish.
